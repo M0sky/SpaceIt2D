@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="underline">#404147</color>
+
+    <color name="primary">#171717</color>
+    <color name="background">#0f0f0f</color>
+    <color name="card_background">#000000</color>
+    <color name="primary_text">#565B65</color>
+    <color name="secundary_text">#9B9A9D</color>
+    <color name="main_spaceit2d">#2CC2EA</color>
+
+    <color name="caja_drawable_colorDay">#E6D9A0</color>
+    <color name="bulto_drawable_colorDay">#FFFFD0</color>
+    <color name="caja_item_background">#4C4652</color>
+    <color name="bulto_item_background">#655D6E</color>
+    <color name="caja_border_color">#9B9A9D</color>
+
+    <color name="optimizacion_drawable_color">#EBE8FA</color>
+    <color name="optimizacion_item_background">#2D2D2D</color>
+
+    <color name="fav_drawable_color">#E7C538</color>
+
+</resources>

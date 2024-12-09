@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".in.MenuCajasEditActivity">
+
+    <Button
+        android:id="@+id/button_confirmEditCaja"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="44dp"
+        android:text="Confirmar"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/text_editCajaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint='Nombre'
+        android:paddingLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_editCajaPesoMax"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint='Peso Max'
+        android:paddingLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_editCajaNombre" />
+
+    <EditText
+        android:id="@+id/text_editCajaLimite"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint='Limite'
+        android:paddingLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_editCajaPesoMax" />
+
+    <EditText
+        android:id="@+id/text_editCajaDX"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint='Dimension X'
+        android:paddingLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_editCajaLimite" />
+
+    <EditText
+        android:id="@+id/text_editCajaDY"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint='Dimension Y'
+        android:paddingLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_editCajaDX" />
+
+    <TextView
+        android:id="@+id/tv_editCajaNombre"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:paddingTop="15dp"
+        android:text="NOMBRE"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_editCajaPesoMax"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:paddingTop="15dp"
+        android:text="PESO"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editCajaNombre" />
+
+    <TextView
+        android:id="@+id/tv_editCajaLimite"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:paddingTop="15dp"
+        android:text="LIMITE"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editCajaPesoMax" />
+
+    <TextView
+        android:id="@+id/tv_editCajaDX"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:paddingTop="15dp"
+        android:text="DIMENSION X"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editCajaLimite" />
+
+    <TextView
+        android:id="@+id/tv_editCajaDY"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:paddingTop="15dp"
+        android:text="DIMENSION Y"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editCajaDX" />
+</androidx.constraintlayout.widget.ConstraintLayout>

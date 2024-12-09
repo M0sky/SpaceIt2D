@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".in.MenuCajasActivity">
+
+    <Button
+        android:id="@+id/button_addCajas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:text="Añadir"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_editCajas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="44dp"
+        android:text="Editar"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3" />
+
+    <Button
+        android:id="@+id/button_deleteCajas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="Borrar"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="340dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_limiteCaja">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerCajas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/text_nombreCaja"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:paddingLeft="10dip"
+        android:textAllCaps="false"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_pesoMaxCaja"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:ems="10"
+        android:hint="Peso Max"
+        android:inputType="text"
+        android:paddingLeft="10dip"
+        android:textAllCaps="false"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_nombreCaja" />
+
+    <EditText
+        android:id="@+id/text_limiteCaja"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:ems="10"
+        android:hint="Limite"
+        android:inputType="text"
+        android:paddingLeft="10dip"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textColor="@color/secundary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_pesoMaxCaja" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
