@@ -1,4 +1,4 @@
-# 💢 SERVIDOR
+# SpaceIt2D 📦
 
 **SpaceIt2D** Space optimisation system in the packaging process.
 
@@ -10,7 +10,7 @@ Implementation of a space optimization platform during the packaging process, wh
 
 The functional objectives of this final degree project are the following:
 
-### 1. Establish rules for the maximum amount of objects per box, balancing efficiency and ease of handling.
-### 2. Distribute the weight equitably between boxes to prevent imbalances and improve stability in transport.
-### 3. Develop a user-friendly interface that provides operators with clear information and suggestions to facilitate the packaging process.
-### 4. Adjust the packaging configuration in real time according to changes in dimensions or restrictions, continuously optimizing the available space.
+1. Establish rules for the maximum amount of objects per box, balancing efficiency and ease of handling.
+2. Distribute the weight equitably between boxes to prevent imbalances and improve stability in transport.
+3. Develop a user-friendly interface that provides operators with clear information and suggestions to facilitate the packaging process.
+4. Adjust the packaging configuration in real time according to changes in dimensions or restrictions, continuously optimizing the available space.
